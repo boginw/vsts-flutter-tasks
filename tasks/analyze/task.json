@@ -1,0 +1,30 @@
+{
+    "id": "6bee7ef4-7576-42da-b464-c654d0ef0cb9",
+    "name": "FlutterAnalysis",
+    "friendlyName": "Flutter Analysis",
+    "description": "Runs flutter anlysis for a Flutter project.",
+    "helpMarkdown": "For more information, take a look at the Flutter [documentation](https://flutter.io)",
+    "category": "Test",
+    "author": "Bogi Napoleon Wennerstrøm",
+    "version": {
+        "Major": 0,
+        "Minor": 2,
+        "Patch": 13
+    },
+    "instanceNameFormat": "Flutter Analysis",
+    "inputs": [
+        {
+            "name": "projectDirectory",
+            "type": "filePath",
+            "label": "Path to the project folder",
+            "defaultValue": "",
+            "helpMarkDown": "The path to the project folder (which contains the `pubspec.yaml`)",
+            "required": true
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}
